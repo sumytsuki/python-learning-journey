@@ -1,0 +1,13 @@
+# Heads or Tails
+# Randomization and Lists
+# Concepts: random.randint(), Variables, if/else
+# Simulates a coin toss and displays the result.
+
+import random
+
+random_side = random.randint(0, 1)
+
+if random_side == 1:
+    print("Heads")
+else:
+    print("Tails")
