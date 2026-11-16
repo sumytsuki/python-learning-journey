@@ -2,6 +2,7 @@
 # Python Mini Projects
 # Concepts: Functions, Lists, Loops, Conditionals, Random
 # A command-line Blackjack game against a computer dealer.
+import random
 
 def deal_card():
     """Return a randomly selected card value."""
@@ -45,8 +46,6 @@ def compare(player_score, dealer_score):
 
 def play_game():
     """Run a single round of Blackjack."""
-
-    print(logo)
 
     player_hand = []
     dealer_hand = []
