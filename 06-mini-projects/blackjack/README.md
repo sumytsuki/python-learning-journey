@@ -48,14 +48,11 @@ Navigate to the Blackjack project directory and run:
 python main.py
 ```
 
-Make sure `art.py`, containing the game logo, is in the same directory as `main.py`.
-
 ## Project Structure
 
 ```text
 blackjack/
 ├── main.py
-├── art.py
 └── README.md
 ```
 
